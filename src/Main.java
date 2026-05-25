@@ -35,7 +35,7 @@ public class Main {
         Collections.sort(lista);
 
         // Ispis svih nogometaša iz liste nakon sortiranja pomoću for-each petlje
-        System.out.println("***Nakon sortiranja***");
+        System.out.println("\n***Nakon sortiranja***");
         for (Nogometas n : lista) {
             System.out.println(n);
         }
